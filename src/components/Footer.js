@@ -24,7 +24,7 @@ function Footer() {
       </ol>
 
         <p className="copyright">
-        &copy; Copyright 2021 Prahlad Kumar | All Rights Reserved. 
+        &copy; Copyright 2022 Prahlad Kumar | All Rights Reserved. 
         </p>
       </div>
     </div>
