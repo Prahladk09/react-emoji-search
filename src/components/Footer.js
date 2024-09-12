@@ -7,6 +7,9 @@ import './Footer.css'
 
 
 function Footer() {
+  const getCurrentYear = () => {
+    return new Date().getFullYear();
+  };
 
   return (
       <IconContext.Provider value={{color:"#5642a8", size:"1.5em"}}>
@@ -24,7 +27,7 @@ function Footer() {
       </ol>
 
         <p className="copyright">
-        &copy; Copyright 2022 Prahlad Kumar | All Rights Reserved. 
+        &copy; Copyright {getCurrentYear()} Prahlad Kumar | All Rights Reserved. 
         </p>
       </div>
     </div>
